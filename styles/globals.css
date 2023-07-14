@@ -1,0 +1,63 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --foreground-rgb: 0, 0, 0;
+  --background-start-rgb: 214, 219, 220;
+  --background-end-rgb: 255, 255, 255;
+
+  font-family: "Montserrat", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+input {
+  border: 2px solid black;
+  padding: 1rem;
+  margin: 1rem;
+}
+.btnadd,
+.btndel {
+  padding: 1rem;
+  margin: 1rem;
+  color: #fff;
+  background-color: #000000;
+}
+.list {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #f0d2d2;
+  padding: 0 1rem;
+}
+
+.btnpink {
+  padding: 1rem;
+  margin: 1rem;
+  background-color: #1f411f;
+  color: #dab8b8;
+}
+.inp {
+  width: 80%;
+}
+.nav {
+  background-color: #1f411f;
+  color: whITE;
+  font-size: 1.6rem;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding: 1rem;
+  margin-bottom: 4rem;
+}
+.ul{
+    background-color: #dab8b8;
+    padding: 3rem;
+}
